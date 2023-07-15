@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Best Pizza Ever</title>
+    <style >
+      body{
+        background-color: black;
+        color:red;
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <center><img src="piz.png" alt=""height="200px"></center>
+      <h1>Best Pizza Ever!</h1>
+      <h3>Come and get some, homie.</h3>
+    </header>
+
+    <main>
+
+
+      <section id="contact-form">
+          <h2></h2>
+        <form action="place-order.php"method="post">
+          <h4>Delivery</h4>
+          <input type="radio" name="delivery" value="delivery">Delivery<br>
+          <input type="radio" name="delivery" value="pickup">Pickup <br>
+
+
+          <h4>Address</h4>
+          <input name="address1" placeholder="Address Line 1" class="lg-input"><br>
+          <input name="address2" placeholder="Address Line 2" class="lg-input"><br>
+
+          <input name="city" placeholder="City" class="sm-input">
+          <input name="state" placeholder="State" class="sm-input"><br>
+          <input name="zip" placeholder="Zip Code" class="sm-input">
+          <br>
+          <br>
+
+          <h4>Size</h4>
+          <select  name="Size">
+            <option value="12">12" - $13.99</option>
+            <option value="16">16" - $16.99</option>
+            <option value="18">18" - $19.99</option>
+            <option value="72">72" - $149.99</option>
+          </select>
+
+
+
+          <h4>Ingredients</h4>
+          <input type="checkbox" name="Ingredients" value="Pepperoni">Pepperoni <br>
+          <input type="checkbox" name="Ingredients" value="Salami">Salami<br>
+          <input type="checkbox" name="Ingredients" value="Bacon">Bacon <br>
+          <input type="checkbox" name="Ingredients" value="onion">Onions<br>
+          <input type="checkbox" name="Ingredients" value="sausage">Italian Sausage <br>
+          <input type="checkbox" name="Ingredients" value="peppers">Green Peppers <br>
+
+<br><br>
+        <button type="submit">Place Order</button>
+        </form>
+
+      </section>
+      <html>
+
+      <footer>
+        <center>
+          <img src="pizza.png" alt=""height="200px"><br><br>
+          &copy; 2023 <br>
+          <a href="#">Terms of Service</a>
+        </center>
+      </footer>
+    </main>
+
+
+
+
+
+  </body>
+
+
+</html>
